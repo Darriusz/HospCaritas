@@ -1,0 +1,452 @@
+/*nav.navbar {
+	position: relative;
+}
+*/
+.navbar {
+/*	background-image: url("../images/NavBarZPulpitu_m.jpg");*/
+	background-color: #3772AE; /*rgba(55, 114, 174, 0.8); #295488;*/
+/*	height: 60px*/
+
+	border-radius: 5px;
+}
+
+/*#firma {
+	color: white;
+}*/
+
+#sp {
+	font-size: 0.5em;
+	color: #FA857F;
+}
+
+a.nav-link {
+	font-size: 125%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #E5E0E0 /*#FA857F;*/
+	text-align: center;
+}
+
+#dropdown-toggle {
+	color:white;
+}
+
+/*#input{
+	float: right;
+}
+*/
+/*#search {
+	background-color: #FA857F;
+	border-radius: 5px;
+	border: none;*/
+/*	margin-left: 25px;*/
+}
+
+
+hr.menuHr{
+	border: 0; 
+	border-top: 1px solid white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #BEDBF8;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 5px;
+}
+
+
+h3 > a {
+	text-decoration: none;
+	color: black;
+} 
+
+h3 > a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #E5E0E0;
+	border-radius: 15px;
+} 
+
+
+small{
+	color: #FA857F;
+	font-size:50%;
+}
+
+.container-fluid{
+	width:95%;
+	margin: auto;
+}
+
+.jumbotron {
+
+/*	background-image: url("http://webershandwick.co.uk/wp-content/uploads/2013/11/Corporate-2.jpg");
+*/
+	background-image: url("https://www.stjoeschipfalls.org/www-sjcf/media/SJCF-Images/header-images/services-header-hospice.png");
+/*	background-repeat: no-repeat;
+*/	color: white;
+/*	margin-top: 60px; /*for fixed navbar BUT doesn't move down with coll navbar. Moves down when no margin top and no fixed navbar */
+	max-height: 280px;
+
+}
+
+h1.main {
+	font-size: 7vw;
+}
+
+#jumbo {
+/*	color: #FA857F;*/
+	color: black;
+	font-size: 2.5vw;	
+	margin-bottom: 0;
+}
+
+.display-2, .display-3, .display-4 {
+	color: #FA857F;
+
+}
+
+.display-4{
+	font-size: 4.5vw;
+}
+
+#personel.display-4{
+	font-size: 4vw;
+/*	text-align: center;*/
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #295488;
+}
+
+hr.short{
+	width:60%;
+	border: 0; 
+	border-top: 1px solid #FA857F;
+	margin-top: 50px;
+}
+
+#big {
+	margin-top: 20px;
+}
+
+#bigPage1 {
+	margin-top: 100px;
+}
+
+#bigPage3 {
+	margin-top: 60px;
+}
+	
+#longText{
+	width: 85%;
+	margin: auto;
+	text-align: justify;
+	background-color: #E5E0E0;
+}
+
+#longTextWolont{
+	width: 85%;
+	margin: auto;
+	margin-top: 40px;
+	text-align: justify;
+/*	background-color: #E5E0E0;*/
+	border: 1px solid black;
+}
+
+
+
+/*#bodyPage1, #bodyPage2{
+	background-color: #A9B0B1;
+}*/
+
+#startParaPage1 {
+	margin-top: 35px;
+}
+
+#carous {
+ 	width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px #295488;
+}
+
+#slajdy {
+	margin-top: 50px;
+	width: 70%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 600px;
+}
+
+#tytMisja{
+	font-size:280%;
+	text-align: center;
+	color: #295488;
+	margin-top: 40px;
+	margin-bottom:50px;
+}
+
+#collapsiblePanelsWolont {
+	background-color:#E5E0E0;
+	padding-top:10px;
+	border-radius:5px;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.colPanel {
+	text-decoration: none;
+	color: #FA857F;
+}
+
+h4 > a.display-4 {
+	font-size: 150%;
+}
+
+h4 > a:hover {
+	text-decoration: none;
+	color: white;
+} 
+
+.panel-title{
+	text-align: center;
+}
+
+#button3PanelHeading{
+	color: red;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
+
+.colImg {
+	width:100%;
+	max-width: 400px;
+	max-height: 250px;
+	margin-top: 20px;
+	border: 1px solid black;
+	box-shadow: 2px 2px #A8B7C6;
+}
+
+#mainFooter{
+	background-color: #576A6F; /*#0E284D;*/
+	color: #BAD5FC; /*#ACAFB3;*/
+	text-align: center;	
+	margin-top: 30px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+a.tel, a.e-mail {
+	color: #BAD5FC;
+}
+
+a.tel:hover, a.e-mail:hover {
+	text-decoration: none;
+	color: #8B9DB5;
+}
+
+#copyright{
+	text-align: center;
+	color: #8B9DB5;
+	font-size:0.8em;
+}
+
+
+/*******extra extra small**********/
+@media (max-width: 450px) {
+
+/*	#input{
+		margin-left: 0;
+	}*/
+
+	h1 {
+		font-size: 100%;
+		margin-top: 6px;
+	}
+
+	h1.main {
+		font-size: 30px;
+	}
+
+	#jumbo {
+		color: #FA857F;
+		font-size: 12px;
+	}
+	
+	body {
+		font-size: 0.8em;
+	}
+
+	#sp {
+	color: #FA857F;
+}
+
+	.jumbotron{
+		height:180px;
+	}
+
+	.display-2 {
+		font-size:380%;
+	}
+
+	.display-3 {
+		font-size:310%;
+	}
+
+	.display-4{
+		font-size: 250%;
+	}
+
+	.lead{
+		font-size: 120%;
+	}
+
+	h4 > a.display-4 {
+	font-size: 100%;
+}
+	
+	#button1, #button2, #button3 {
+		font-size:110%;
+		width: 60%;
+	}
+}
+
+
+/*******extra small**********/
+@media (min-width: 451px) and (max-width: 576px) {
+	
+	.navbar-dark .navbar-nav .nav-link{
+		color: #FA857F;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 100%;
+		margin-top: 6px;
+	}
+
+	body {
+		font-size: 0.8em;
+	}
+
+	#sp {
+	color: #FA857F;
+}
+
+	.jumbotron{
+		height:220px;
+	}
+
+	h1.main{
+		margin-top: 30px;
+	}
+
+	.display-2 {
+		font-size:380%;
+	}
+	.display-3 {
+		font-size:310%;
+	}
+	.display-4{
+		font-size: 250%;
+	}
+	.lead{
+		font-size: 120%;
+	}
+	h4 > a.display-4 {
+		font-size: 100%;
+	}
+}
+
+
+/*******medium and small**********/
+@media (min-width: 577px) and (max-width: 991px) {
+
+/*	.navbar-dark .navbar-nav .nav-index{  
+		width:120px;
+		margin-right: 8px;
+		border: 1px solid white;
+		border-radius: 5px;
+		font-size: 1.2em;
+		padding:3px;
+	}
+
+	.navbar-dark .navbar-nav .nav-page3{ 
+		width:120px;
+		margin-right: 8px;
+		border-radius: 5px;
+		background-color: rgba(255,255,255,0.8);
+		font-size: 1.2em;
+		padding:3px;
+	}*/
+
+	h1 {
+		font-size: 150%;
+		margin-top: 6px;
+	}
+
+	.display-2 {
+		font-size:400%;
+	}
+
+	.display-3 {
+		font-size:350%;
+	}
+
+	.display-4{
+		font-size: 310%;
+	}
+	.lead{
+		font-size: 120%;
+	}
+	h4 > a.display-4 {
+		font-size: 150%;
+	}
+	
+}
+
+
+/*******large**********/
+@media (min-width: 992px) {
+
+.navbar-dark .navbar-nav .nav-index{  
+/*	width:130px;*/
+	margin-right: 10px;
+/*	background-color: white;
+	border: 1px solid white;
+	border-radius: 5px;*/
+	font-size: 1.2em;
+/*	padding:3px;*/
+}
+
+.navbar-dark .navbar-nav .nav-page3{ 
+	width:120px;
+	margin-right: 8px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.8);
+	font-size: 1.2em;
+	padding:3px;
+}
+
+	h1.main {
+		font-size: 60px;
+	}
+
+	#jumbo {
+		color: #FA857F;
+		font-size: 25px;
+	}
+		
+	.display-4{
+		font-size: 58px;
+}
