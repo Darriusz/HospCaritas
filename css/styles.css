@@ -106,6 +106,7 @@ h1.main {
 
 .display-2, .display-3, .display-4 {
 	color: #FA857F;
+	text-align: left;
 
 }
 
@@ -209,13 +210,17 @@ hr.short{
  	margin: 7%;
 }
 
-.pers {
+.pers, .persBtn {
 	color:grey;
 }
 
-.pers:hover {
+.pers:hover, .persBtn:hover {
 	text-decoration: none;
 	color: #FA857F;
+}
+
+.modal-body{
+	text-align: justify; 
 }
 
 #collapsiblePanelsWolont {
@@ -272,7 +277,11 @@ a.tel, a.mailto {
 	color: #BAD5FC;
 }
 
-a.tel:hover, a.mailto:hover {
+a.telModal, a.mailtoModal {
+	color: #FA857F;
+}
+
+a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 	text-decoration: none;
 	color: #8B9DB5;
 }
@@ -319,6 +328,7 @@ a.tel:hover, a.mailto:hover {
 
 	.display-2 {
 		font-size:380%;
+		margin-top: 20px;
 	}
 
 	.display-3 {
@@ -327,6 +337,7 @@ a.tel:hover, a.mailto:hover {
 
 	.display-4{
 		font-size: 250%;
+		margin-top: 0;			
 	}
 
 	.lead{
@@ -375,12 +386,14 @@ a.tel:hover, a.mailto:hover {
 
 	.display-2 {
 		font-size:380%;
+		margin-top: 20px;		
 	}
 	.display-3 {
 		font-size:310%;
 	}
 	.display-4{
 		font-size: 250%;
+		margin-top: 20px;			
 	}
 	.lead{
 		font-size: 120%;

@@ -25,130 +25,282 @@
     <div id="bigPage1" class="col-sm-12 text-justify">
       <h3 class="display-4">Nasz personel medyczny</h3>
       <p>Kompleksową opiekę nad pacjentem sprawuje wieloosobowy zespół, w którego skład wchodzą lekarze i pielęgniarki oraz w razie potrzeby psycholog, terapeuta zajęciowy, fizjoterapeuta, masażysta. Pracownikami i współpracownikami Hospicjum są wykwalifikowani fachowcy, dysponujący wieloletnim doświadczeniem w pracy z osobami terminalnie chorymi. Pacjenci tacy mają często zupełnie inne szczegółowe potrzeby niż chorzy, którzy przygotowują się do powrotu do zdrowia. Niemniej zasadnicza potrzeba jest wspólna dla nich - i nas wszystkich - to potrzeba ciepła, serdeczności, troski, przyjaznej rozmowy. W Hospicjum zdajemy sobie z tego sprawę i staramy się tak realizować wizyty w domach, aby móc zaspokoić nie tylko podstawowe potrzeby fizyczne, lecz również te wynikajace z kontaktu człowieka z człowiekiem w skrajnej sytuacji, w jakiej się znalazł.</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.....</p>
     </div>
   </div>
 </div>
 
-<!--------buttons-------------->
-<!-- <div class="container-fluid text-center">
-	<hr>
-  <div class="row">
-    <div class="col-sm-4 text-center">	
-		<button id="button1" class="btn btn-primary btn-lg mb-2">JSON data</button>
-    </div>
-    <div  class="col-sm-4 text-center">	
-	<button id="button2" class="btn btn-primary btn-lg mb-2">TXT file text</button>
-    </div>
-    <div class="col-sm-4 text-center">	
-	<button id="button3" class="btn btn-primary btn-lg">audio file</button>
-    </div>
-  </div>	
-    <hr>
-</div>
 
-
-<div class="container-fluid text-center">
-    <div class="panel panel-default">
-		<div id="button1PanelHeading" class="panel-heading"></div>
-            <div id="button1Content" class="panel-body"></div>
-    </div>
-
-		
-    <div class="panel panel-default">
-		<div id="button2PanelHeading" class="panel-heading"></div>
-        <div id="button2Content" class="panel-body text-justify"></div>
-    </div>
-
-    <div class="panel panel-default">
-		<div id="button3PanelHeading" class="panel-heading"></div>
-        <div id="button3Content" class="panel-body"></div>
-    </div>
-
-
-</div> -->
-<!-------end of buttons and their responses------->
-
-
-<!-- <h1 class="display-4" id="tytMisja" class="text-center">To jest nasze przesłanie</h1>
- -->
+<!---------------------------lekarze-------------------->
 
 <div id="personel" class="container-fluid display-4">Lekarze</div>
 <!-- --------------photos ----------------->
 <div id="imgsPage2" class="container-fluid">
   <div class="row">
     <div class="col-4 text-center">
-      <a class="pers" href="#">
       <img class="MycolImg" src="images/AutorPixabay_m.jpg" alt="Imie i Nazwisko">
-      <p>Imię Nazwisko</p></a>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#lek1">Imię Nazwisko</button>
+      <div class="modal fade" id="lek1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię1 Lekarz1</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
+
     <div class="col-4 text-center">
-      <a class="pers" href="#">
       <img class="MycolImg" src="images/AutorPixabay1_m.jpg" alt="">
-      <p>Imię Nazwisko</p></a>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#lek2">Imię Nazwisko</button>
+      <div class="modal fade" id="lek2" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię2 Lekarz2</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+<!--             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
+
     <div class="col-4 text-center">
-      <a class="pers" href="#">
       <img class="MycolImg" src="images/AutorPixabay_m.jpg" alt="">
-      <p>Imię Nazwisko</p></a>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#lek3">Imię Nazwisko</button>
+      <div class="modal fade" id="lek3" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię3 Lekarz3</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+<!--             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
+
+
     <div class="col-4 text-center">
-      <a class="pers" href="#">
       <img class="MycolImg" src="images/AutorPixabay1_m.jpg" alt="">
-      <p>Imię Nazwisko</p></a>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#lek4">Imię Nazwisko</button>
+      <div class="modal fade" id="lek4" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię4 Lekarz4</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+<!--             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
+
     <div class="col-4 text-center">
-      <a class="pers" href="#">
       <img class="MycolImg" src="images/AutorPixabay_m.jpg" alt="">
-      <p>Imię Nazwisko</p></a>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#lek5">Imię Nazwisko</button>
+      <div class="modal fade" id="lek5" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię5 Lekarz5</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+<!--             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
+
+
     <div class="col-4 text-center">
-      <a class="pers" href="#">
       <img class="MycolImg" src="images/AutorPixabay1_m.jpg" alt="">
-      <p>Imię Nazwisko</p></a>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#lek6">Imię Nazwisko</button>
+      <div class="modal fade" id="lek6" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię6 Lekarz6</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+<!--             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
+
   </div>
   <hr>
 </div>
 
+
+<!------------------------pielegniarki------------------------------------->
 
 <div id="personel" class="container-fluid display-4">Pielęgniarki</div>
 <!-- --------------photos ----------------->
 <div id="imgsPage2" class="container-fluid">
   <div class="row">
     <div class="col-4 text-center">
-      <a class="pers" href="#">
       <img class="MycolImg" src="images/AutorPixabay_m.jpg", max-height=60% max-width=60% alt="Imie i Nazwisko">
-      <p>Imię Nazwisko</p></a>
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#piel1">Imię Nazwisko</button>
+      <div class="modal fade" id="piel1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+<!--               <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <h4 class="modal-title display-4">Imię1 Pielęgniarka1</h4>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
+    </div>
+
+    <div class="col-4 text-center">
+      <img class="MycolImg" src="images/AutorPixabay1_m.jpg", max-height=60% max-width=60% alt="Imie i Nazwisko">
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#piel2">Imię Nazwisko</button>
+      <div class="modal fade" id="piel2" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+<!--               <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <h4 class="modal-title display-4">Imię2 Pielęgniarka2</h4>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
+    </div>
+
+    <div class="col-4 text-center">
+      <img class="MycolImg" src="images/AutorPixabay_m.jpg", max-height=60% max-width=60% alt="Imie i Nazwisko">
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#piel3">Imię Nazwisko</button>
+      <div class="modal fade" id="piel3" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+<!--               <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <h4 class="modal-title display-4">Imię3 Pielęgniarka3</h4>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
+
     </div>
     <div class="col-4 text-center">
-      <a class="pers" href="#">
+      <a class="pers" href="images/AutorPixabay1_m.jpg" target="_blanck">
       <img class="MycolImg" src="images/AutorPixabay1_m.jpg", max-height=60% max-width=60% alt="Imie i Nazwisko">
       <p>Imię Nazwisko</p></a>
     </div>
     <div class="col-4 text-center">
-      <a class="pers" href="#">
+      <a class="pers" href="images/AutorPixabay_m.jpg" target="_blanck">
       <img class="MycolImg" src="images/AutorPixabay_m.jpg", max-height=60% max-width=60% alt="Imie i Nazwisko">
       <p>Imię Nazwisko</p></a>
     </div>
     <div class="col-4 text-center">
-      <a class="pers" href="#">
-      <img class="MycolImg" src="images/AutorPixabay1_m.jpg", max-height=60% max-width=60% alt="Imie i Nazwisko">
-      <p>Imię Nazwisko</p></a>
-    </div>
-    <div class="col-4 text-center">
-      <a class="pers" href="#">
-      <img class="MycolImg" src="images/AutorPixabay_m.jpg", max-height=60% max-width=60% alt="Imie i Nazwisko">
-      <p>Imię Nazwisko</p></a>
-    </div>
-    <div class="col-4 text-center">
-      <a class="pers" href="#">
+      <a class="pers" href="images/AutorPixabay1_m.jpg" target="_blanck">
       <img class="MycolImg" src="images/AutorPixabay1_m.jpg", max-height=60% max-width=60% alt="Imie i Nazwisko">
       <p>Imię Nazwisko</p></a>
     </div>
   </div>
   <hr>
 </div>
+
+
+<!--------------specjaliści-------------------------->
 
 
 <div id="personel" class="container-fluid display-4">Pozostali specjaliści</div>
@@ -156,21 +308,88 @@
 <div id="imgsPage2" class="container-fluid">
   <div class="row">
     <div class="col-4 text-center">
-      <a class="pers" href="#"><img class="MycolImg" src="images/AutorPixabay_m.jpg" max-height=60% max-width=60% alt="Imie i Nazwisko">
-      <p>Imię Nazwisko</p></a>
+      <img class="MycolImg" src="images/AutorPixabay_m.jpg" max-height=60% max-width=60% alt="Imie i Nazwisko">
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#spec1">Imię Nazwisko</button>
+      <div class="modal fade" id="spec1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię1 Specjalista1</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+<!--             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
-    <div class="col-4 text-center"">
-      <a class="pers" href="#"><img class="MycolImg" src="images/AutorPixabay1_m.jpg" max-height=60% max-width=60% alt="Imie i Nazwisko">
-      <p>Imię Nazwisko</p></a>
+
+    <div class="col-4 text-center">
+      <img class="MycolImg" src="images/AutorPixabay1_m.jpg" max-height=60% max-width=60% alt="Imie i Nazwisko">
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#spec2">Imię Nazwisko</button>
+      <div class="modal fade" id="spec2" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię2 Specjalista2</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+<!--             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
-    <div class="col-4 text-center"">
-      <a class="pers" href="#"><img class="MycolImg" src="images/AutorPixabay_m.jpg" max-height=60% max-width=60% alt="Imie i Nazwisko">
-      <p>Imię Nazwisko</p></a>
+
+    <div class="col-4 text-center">
+      <img class="MycolImg" src="images/AutorPixabay_m.jpg" max-height=60% max-width=60% alt="Imie i Nazwisko">
+            <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#spec3">Imię Nazwisko</button>
+      <div class="modal fade" id="spec3" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">Imię3 Specjalista3</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....).</p> <p>Poprzednio pracował w ..... </p>
+              <p>tel. <a class="telModal" href= "tel:48426362408">+(48)42 636 24 08</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:adres@domena.com.pl">adres@domena.com.pl</a></p>
+            </div>
+<!--             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
     </div>
+
   </div>
 </div>
 
 
+
+</div>
 <div class="container-fluid">
   <div class="row">
     <div id="bigPage1" class="col-sm-12 text-justify">
