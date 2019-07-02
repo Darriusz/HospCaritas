@@ -114,8 +114,8 @@ h1.main {
 }
 
 #personel.display-4{
+	text-align: center;
 	font-size: 4vw;
-/*	text-align: center;*/
 	margin-top: 30px;
 	margin-bottom: 15px;
 	color: #295488;
@@ -178,7 +178,9 @@ hr.short{
 
 #slajdy {
 	margin-top: 50px;
-	width: 70%;
+	width: 50%;
+	height: auto;
+/*	flex: 1.33;	*/
 }
 
 .carousel-inner img {
@@ -194,6 +196,26 @@ hr.short{
 	color: #295488;
 	margin-top: 40px;
 	margin-bottom:50px;
+}
+
+.MycolImg {
+/*	max-width: 374px;
+	max-height: 100%;
+*/	flex: 1.1;
+ 	max-height: 100% ;
+ 	max-width: 100%;
+ 	border: 1px solid black;
+ 	box-shadow: 2px 2px #E5E0E0;
+ 	margin: 7%;
+}
+
+.pers {
+	color:grey;
+}
+
+.pers:hover {
+	text-decoration: none;
+	color: #FA857F;
 }
 
 #collapsiblePanelsWolont {
@@ -246,11 +268,11 @@ h4 > a:hover {
 	border-radius: 10px;
 }
 
-a.tel, a.e-mail {
+a.tel, a.mailto {
 	color: #BAD5FC;
 }
 
-a.tel:hover, a.e-mail:hover {
+a.tel:hover, a.mailto:hover {
 	text-decoration: none;
 	color: #8B9DB5;
 }
