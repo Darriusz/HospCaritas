@@ -4,7 +4,7 @@
 */
 .navbar {
 /*	background-image: url("../images/NavBarZPulpitu_m.jpg");*/
-	background-color: #3772AE; /*rgba(55, 114, 174, 0.8); #295488;*/
+	background-color: rgba(29,76,123,.6); /* #3772AE rgba(55, 114, 174, 0.8); #295488;*/
 /*	height: 60px*/
 
 	border-radius: 5px;
@@ -85,6 +85,8 @@ small{
 
 /*	background-image: url("http://webershandwick.co.uk/wp-content/uploads/2013/11/Corporate-2.jpg");
 */
+/*	background-image: url("https://wellsky.com/wp-content/uploads/2018/09/hdr_Home_hospice2.jpg"); width="1500" height="455" title="hdr_Home_hospice2" alt="" itemprop="thumbnailUrl" style="min-height: 321px; min-width: 1059px; left: 0px;">
+*/
 	background-image: url("https://www.stjoeschipfalls.org/www-sjcf/media/SJCF-Images/header-images/services-header-hospice.png");
 /*	background-repeat: no-repeat;
 */	color: white;
@@ -93,16 +95,35 @@ small{
 
 }
 
+h1.mainTelebim {	
+	text-align:center; 
+	margin-top: -10px;
+	font-size: 5vw;
+	color:white;
+	text-shadow: -1px -1px #000000,
+    1px -1px #000000,
+    -1px 1px #000000,
+    1px 1px #000000;	/*to jest OUTLINE zrobiony z czarnego cienia*********************/
+}
+
 h1.main {
 	font-size: 7vw;
 }
 
 #jumbo {
-/*	color: #FA857F;*/
-	color: black;
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #FA857F;
 	font-size: 2.5vw;	
-	margin-bottom: 0;
+	margin-top: 0.5em;
+	margin-bottom: 1.2em;
+	padding: 0.6em 0em 0.6em 0em;
+	background-color: rgba(29,76,123,.6) /*rgba(0,0,0,0.3)*/;
+	border-radius: 5px;
 }
+
 
 .display-2, .display-3, .display-4 {
 	color: #FA857F;
@@ -296,9 +317,9 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 /*******extra extra small**********/
 @media (max-width: 450px) {
 
-/*	#input{
-		margin-left: 0;
-	}*/
+	h1.mainTelebim {
+		margin-top: 5%;
+	}	
 
 	h1 {
 		font-size: 100%;
@@ -312,6 +333,7 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 	#jumbo {
 		color: #FA857F;
 		font-size: 12px;
+		width:100%;
 	}
 	
 	body {
@@ -363,6 +385,10 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		text-align: center;
 	}
 
+	h1.mainTelebim {
+		margin-top: 5%;
+	}	
+
 	h1 {
 		font-size: 100%;
 		margin-top: 6px;
@@ -380,8 +406,12 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		height:220px;
 	}
 
-	h1.main{
+	#jumbo{
+		width:100%;
+	}
+	h1.mainTelebim{
 		margin-top: 30px;
+		font-size: 240%;
 	}
 
 	.display-2 {
@@ -425,6 +455,9 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		padding:3px;
 	}*/
 
+	#jumbo{
+		width: 80%;
+	}
 	h1 {
 		font-size: 150%;
 		margin-top: 6px;
